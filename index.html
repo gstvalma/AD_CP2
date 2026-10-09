@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atores e Atrizes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Atores e Atrizes de Séries</h1>
+    <p>Encontre seus atores e atrizes favoritos pelo nome</p>
+
+    <input type="text" id="busca" placeholder="Digite um nome..." oninput="filtrarAtores()">
+  </header>
+
+  <main>
+    <p id="mensagem"></p>
+    <div class="grid" id="lista-atores"></div>
+  </main>
+
+  <footer>
+    <p>Dados: TVmaze</p>
+  </footer>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
